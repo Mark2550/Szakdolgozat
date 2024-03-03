@@ -1,8 +1,20 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+npm create vite@latest
 
-Currently, two official plugins are available:
+Projekten belül: - npm install
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Futtatás: - npm run dev
+
+Tailwind: 
+- npm install -D tailwindcss postcss autoprefixer
+- npx tailwindcss init -p
+  
+React Router: (ez a navigációhoz kell, pl: Bejelentkezés -> főoldal)
+- npm install react-router-dom
+
+## Struktúra:
+ - assets: kiegészitők pl. képek mennek ide
+ - components: weboldal felbontás külön részekre (navbar, footbar)
+ - index.js: Ez exportálja a komponenseket (ne kelljen sokat importolni az App.jsx-be)
+ 

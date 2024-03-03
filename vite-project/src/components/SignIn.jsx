@@ -25,8 +25,6 @@ function Copyright(props) {
   );
 }
 
-// TODO remove, this demo shouldn't need to reset the theme.
-
 const defaultTheme = createTheme();
 
 export default function SignIn() {
@@ -83,6 +81,7 @@ export default function SignIn() {
               label="Remember me"
             />
             <Button
+              href='Navbar.jsx'
               type="submit"
               fullWidth
               variant="contained"
