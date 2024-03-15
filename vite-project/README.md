@@ -21,6 +21,6 @@ React Router: (ez a navigációhoz kell, pl: Bejelentkezés -> főoldal)
  Errors, debugging failures:
 
 1. Failed to load PostCSS config:
-   
-  ...Failed duo to missing node modules
-  Fix:  - npm install (In project directory)
+
+...Failed duo to missing node modules
+..Fix:  - npm install (In project directory)
