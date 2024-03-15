@@ -23,4 +23,5 @@ ___
 1. Failed to load PostCSS config:
 
 Failed duo to missing node modules
-..Fix:  - npm install (In project directory)
+
+Fix:  - npm install (In project directory)
