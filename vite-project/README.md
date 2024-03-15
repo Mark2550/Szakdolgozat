@@ -18,10 +18,8 @@ ___
  - components: weboldal felbontás külön részekre (navbar, footbar)
  - index.js: Ez exportálja a komponenseket (ne kelljen sokat importolni az App.jsx-be)
 ___
- # Errors, debugging failures:
+ # Errors:
 
 ### Failed to load PostCSS config:
 
-Failed duo to missing node modules
-
-Fix:  - npm install (In project directory)
+Fix:  - npm install (Projekten belül)
