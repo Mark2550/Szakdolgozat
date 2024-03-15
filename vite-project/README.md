@@ -20,7 +20,7 @@ ___
 ___
  # Errors, debugging failures:
 
-1. Failed to load PostCSS config:
+### Failed to load PostCSS config:
 
 Failed duo to missing node modules
 
