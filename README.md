@@ -25,3 +25,10 @@ ___
 ### Failed to load PostCSS config:
 
 Fix:  - npm install (Projekten belül)
+
+# Források:
+- https://flowbite.com/docs/forms/file-input/     (File input)
+- 
+- 
+- 
+- 

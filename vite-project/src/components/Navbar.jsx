@@ -1,7 +1,7 @@
-import './Navbar.css'
 const Navbar = () => {
   return (
     <nav>
+      {/** USE YOUR DAMN TAILWIND here */}
         <div className=' '>
             <ul className=' '>
                 <li className=' '>
