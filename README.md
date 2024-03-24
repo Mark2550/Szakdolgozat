@@ -7,13 +7,13 @@ Projekten belül:
 
 - npm install
 
-Futtatás: - npm run dev
+Futtatás: - **npm run dev**
 
 Tailwind: 
 - npm install -D tailwindcss postcss autoprefixer
 - npx tailwindcss init -p
   
-React Router: (ez a navigációhoz kell, pl: Bejelentkezés -> főoldal)
+React Router: (Oldal navigáció, Bejelentkezés -> főoldal)
 - npm install react-router-dom
 ___
 ## Struktúra
@@ -21,7 +21,7 @@ ___
  - components: weboldal felbontás külön részekre (navbar, footbar)
  - index.js: Ez exportálja a komponenseket (ne kelljen sokat importolni az App.jsx-be)
 ___
- # Errors
+# Errors
 
 ### Failed to load PostCSS config:
 
