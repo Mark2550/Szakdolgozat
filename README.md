@@ -29,10 +29,8 @@ Fix:  - npm install (Projekten belül)
 
 # Források:
 - [Quick start](https://react.dev/learn)
-- [File input](https://flowbite.com/docs/forms/file-input/)
+- [File input template tailwindcss](https://flowbite.com/docs/forms/file-input/)
 - [React Router](https://www.w3schools.com/react/react_router.asp)
 - [Audio identification services](https://acoustid.biz/)
-- []()
-- []()
 - []()
 - []()
