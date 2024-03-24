@@ -34,3 +34,7 @@ Fix:  - npm install (Projekten belül)
 - [Audio identification services](https://acoustid.biz/)
 - []()
 - []()
+
+
+# Megjegyzések
+Tailwind és React
