@@ -23,7 +23,7 @@ React Router: (Oldal navigáció, Bejelentkezés -> főoldal)
 
 # Errors
 
-### Failed to load PostCSS config:
+### Failed to load PostCSS config
 
 Fix:  - npm install (Projekten belül)
 
