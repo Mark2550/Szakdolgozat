@@ -1,5 +1,5 @@
 https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
-
+___
 # React + Vite, telepítés
 - npm create vite@latest
   
@@ -15,12 +15,12 @@ Tailwind:
   
 React Router: (Oldal navigáció, Bejelentkezés -> főoldal)
 - npm install react-router-dom
-___
+
 ## Struktúra
  - assets: kiegészitők pl. képek mennek ide
  - components: weboldal felbontás külön részekre (navbar, footbar)
  - index.js: Ez exportálja a komponenseket (ne kelljen sokat importolni az App.jsx-be)
-___
+
 # Errors
 
 ### Failed to load PostCSS config:
