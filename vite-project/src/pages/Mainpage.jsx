@@ -3,7 +3,7 @@ const Mainpage = () => {
     <div>
 
         <div>
-            <h1 className="text-3xl font-bold underline"> {/**  class="text-3xl font-bold underline" */}
+            <h1 className="text-3xl font-bold underline">
                 Upload file here
             </h1>
             <br />
