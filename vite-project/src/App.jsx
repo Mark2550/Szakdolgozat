@@ -1,27 +1,23 @@
-import './App.css'
-import ReactDOM from "react-dom/client"
-//import Navbar from './components/Navbar'
-import SignIn from './pages/SignIn'
-import Mainpage from './pages/Mainpage'
-import Layout from './pages/Layout'
-//import NoPage from './pages/NoPage'
+import './App.css';
+import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Navbar from './components/Navbar'
+import { SignIn, NoPage, Main } from './pages';
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
 
 const App = () => {
   return (
-    
     <BrowserRouter>
+      <Navbar />
       <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<Mainpage />} />
+          <Route index element={<Main />} />
           <Route path="SignIn" element={<SignIn />} />
-          <Route path="*" element={<SignIn />} />
-        </Route>
+          <Route path="*" element={<NoPage />} />
       </Routes>
     </BrowserRouter>
   )
 }
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<App />);
 export default App
