@@ -32,8 +32,7 @@ Fix:  - npm install (Projekten belül)
 - [File input template tailwindcss](https://flowbite.com/docs/forms/file-input/)
 - [React Router](https://www.w3schools.com/react/react_router.asp)
 - [Audio identification services](https://acoustid.biz/)
-- []()
-- []()
+- [Types of Routes](https://www.geeksforgeeks.org/reactjs-types-of-routers/)
 
 
 # Megjegyzések
