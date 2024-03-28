@@ -10,6 +10,13 @@ import Box from '@mui/material/Box';
 import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
+import { ThemeProvider, createTheme } from '@mui/material/styles';
+
+const darkTheme = createTheme({
+  palette: {
+    mode: 'dark',
+  },
+});
 
 function Copyright(props) {
   return (
@@ -30,7 +37,9 @@ export default function SignIn() {
   };
 
   return (
-      <Container component="main" maxWidth="xs">
+    <ThemeProvider theme={darkTheme}>
+      <CssBaseline />
+      <Container component="main" maxWidth="xs" >
         <CssBaseline />
         <Box
           sx={{
@@ -72,7 +81,6 @@ export default function SignIn() {
               label="Remember me"
             />
             <Button
-              href='Navbar.jsx'
               type="submit"
               fullWidth
               variant="contained"
@@ -97,5 +105,6 @@ export default function SignIn() {
         </Box>
         <Copyright sx={{ mt: 8, mb: 4 }} />
       </Container>
+      </ThemeProvider>
   );
 }
