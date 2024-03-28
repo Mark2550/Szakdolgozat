@@ -1,6 +1,6 @@
 https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 ___
-# React + Vite, telepítés
+# Telepítés
 - npm create vite@latest
   
 Projekten belül:
@@ -12,6 +12,10 @@ Futtatás: - **npm run dev**
 Tailwind: 
 - npm install -D tailwindcss postcss autoprefixer
 - npx tailwindcss init -p
+
+Flowbite:
+- npm install flowbite flowbite-react
+- [További](https://flowbite.com/docs/getting-started/react/)
   
 React Router: (Oldal navigáció, Bejelentkezés -> főoldal)
 - npm install react-router-dom
