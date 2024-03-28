@@ -1,10 +1,11 @@
 /** @type {import('tailwindcss').Config} */
-export default {
-  content: ["./src/**/*.{js,jsx}"],
-  /** Mivel JS és JSX fájlokkal dolgozunk, ezért ezeket adjuk hozzá */
-  theme: {
-    extend: {},
-  },
-  plugins: [],
-}
+export const content = [
+  './src/**/*.{js,jsx}',
+  'node_modules/flowbite-react/lib/esm/**/*.js'
+];
+export const theme = {
+  extend: {},
+};
+export const plugins = [
+];
 
