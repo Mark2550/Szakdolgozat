@@ -1,0 +1,16 @@
+input {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+button{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 400px;
+    background-color: #4d4b4b52;
+    padding-left: 3px;
+}
+
