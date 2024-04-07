@@ -4,7 +4,7 @@ import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import Navbar from './components/Navbar'
-import { LogIn, NoPage, Main } from './pages';
+import { LogIn, NoPage, Home, Register } from './pages';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -14,8 +14,9 @@ const App = () => {
     {/** For parent element only */}
       <Navbar />
       <Routes>
-          <Route path="/" element={<Main />} />
-          <Route path="LogIn" element={<LogIn />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/Register" element={<Register />} />
+          <Route path="/LogIn" element={<LogIn />} />
           <Route path="*" element={<NoPage />} />
           {/** The '*' stands for all type of links */}
       </Routes>
