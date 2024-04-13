@@ -1,9 +1,15 @@
+form{
+    text-align: left;
+}
+
 input {
     border: 1px solid #ccc;
     border-radius: 5px;
   }
 button{
-
+    display: block;
+    width: auto;
+    margin-left: 0;
 }
 
 input[type="text"],
