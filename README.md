@@ -2,12 +2,8 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 ___
 # Telepítés
 - npm create vite@latest
-  
-Projekten belül:
-
+cd vite_project
 - npm install
-
-Futtatás: - **npm run dev**
 
 Tailwind: 
 - npm install -D tailwindcss postcss autoprefixer
@@ -20,6 +16,7 @@ Flowbite:
 React Router: (Oldal navigáció, Bejelentkezés -> főoldal)
 - npm install react-router-dom
 - npm i date-fns  (date functions, installed as dependencies)
+- npm i nodemon -D (-D to install as Dependencies)
 
 ## Struktúra
  - assets: kiegészitők pl. képek mennek ide
