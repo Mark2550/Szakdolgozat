@@ -19,6 +19,7 @@ Flowbite:
   
 React Router: (Oldal navigáció, Bejelentkezés -> főoldal)
 - npm install react-router-dom
+- npm i date-fns  (date functions, installed as dependencies)
 
 ## Struktúra
  - assets: kiegészitők pl. képek mennek ide
@@ -40,6 +41,7 @@ Fix:  - npm install (Projekten belül)
 - [Audio identification services](https://acoustid.biz/)
 - [Types of Routes](https://www.geeksforgeeks.org/reactjs-types-of-routers/)
 
-
+# TODO
+- Add Alert msg to login page https://mui.com/material-ui/react-alert/
 # Megjegyzések
 Tailwind és React
