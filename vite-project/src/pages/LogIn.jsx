@@ -43,7 +43,7 @@ const LogIn = () => {
   const [user, setUser] = useState('');
   const [password, setPassword] = useState('');
   const [errorMsg, setErrorMsg] = useState('');
-  const [succes, setSucces] = useState(false);
+  const [success, setSuccess] = useState(false);
 
   useEffect(() => {
     userRef.current.focus();
@@ -74,7 +74,7 @@ const LogIn = () => {
 
       setUser('');
       setPassword('');
-      setSucces(true);
+      setSuccess(true);
       {/** 
           Fontos, ha nem a neveknek megfelelő tag/id-t adtunk meg az input mezőkben, akkor újra kell struktúrálni
           (Username: <user>, Password: <változónak megfelelő név>) 
@@ -89,14 +89,16 @@ const LogIn = () => {
         setErrorMsg('Login failed');
       }
       errRef.current.focus();
+    }
 
+    if (success){
+      alert("sikeres bejelentkezés");
     }
   };
 
   return (
     <ThemeProvider theme={darkTheme}>
       <CssBaseline />
-      {/**<p ref={errRef} className={errorMsg ? "errmsg" : "offscreen"} aria-live='assertive'>{errorMsg}</p>*/}
       <Container component="main" maxWidth="xs" >
         <CssBaseline />
         <Box
@@ -113,8 +115,10 @@ const LogIn = () => {
           <Typography component="h1" variant="h5">
             Sign in
           </Typography>
+          <p ref={errRef} className={errorMsg ? "errmsg" : "offscreen"} aria-live='assertive'>{errorMsg}</p>
           <Box component="form" onSubmit={handleSubmit} noValidate sx={{ mt: 1 }}>
             <TextField
+              htmlFor="username"
               margin="normal"
               required
               fullWidth

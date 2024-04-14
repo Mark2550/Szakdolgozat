@@ -1,4 +1,9 @@
 import './Register.css';
+//import axios from '../api/axios';
+//import { useRef, useState, useEffect } from "react";
+
+//const PASSWORD_REGEX = /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%]).{8,24}$/;
+//const REGISTER_URL = '/register';
 
 const Register = () => {
     return (
