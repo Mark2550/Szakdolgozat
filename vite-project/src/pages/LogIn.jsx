@@ -12,7 +12,10 @@ import Container from '@mui/material/Container';
 
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 
-import { useRef, useState, useEffect } from 'react';
+import { useRef, useState, useEffect, useContext } from 'react';
+import AuthContext from '../context/Authentication';
+
+import axios from '../api/axios';
 
 import { Link } from "react-router-dom";
 
@@ -25,34 +28,75 @@ const darkTheme = createTheme({
 function Copyright(props) {
   return (
     <Typography variant="body2" color="text.secondary" align="center" {...props}>
-      {'Copyright © Zenekereső '} {new Date().getFullYear()} 
+      {'Copyright © Zenekereső '} {new Date().getFullYear()}
     </Typography>
   );
 }
 
+const LOGIN_URL = '/auth';
+
 const LogIn = () => {
+  const { setAuth } = useContext(AuthContext)
   const userRef = useRef();
   const errRef = useRef();
 
   const [user, setUser] = useState('');
   const [password, setPassword] = useState('');
-  const [error, setError] = useState('');
+  const [errorMsg, setErrorMsg] = useState('');
+  const [succes, setSucces] = useState(false);
 
-  
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    const data = new FormData(event.currentTarget);
-    console.log({
-      email: data.get('email'),
-      password: data.get('password'),
-    });
+  useEffect(() => {
+    userRef.current.focus();
+  }, [])
+
+  useEffect(() => {
+    setErrorMsg('');
+  }, [user, password])
+
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    try {
+      const response = await axios.post(
+        LOGIN_URL,
+        JSON.stringify({ user, password }),
+        {
+          headers: { 'Content-type': 'application/json' },
+          withCredentials: true
+        }
+      );
+      console.log(JSON.stringify(response?.data));
+      //console.log(JSON:stringify(response));
+      const accessToken = response?.data?.accessToken;
+      const roles = response?.data?.roles;
+      setAuth({ user, password, roles, accessToken });
+
+      setUser('');
+      setPassword('');
+      setSucces(true);
+      {/** 
+          Fontos, ha nem a neveknek megfelelő tag/id-t adtunk meg az input mezőkben, akkor újra kell struktúrálni
+          (Username: <user>, Password: <változónak megfelelő név>) 
+      */}
+
+    } catch (err) {
+      if (!err?.response) {
+        setErrorMsg('No server response');
+      } else if (err?.response?.status == 400) {
+        setErrorMsg('Missing username or password');
+      } else if (err?.response?.status == 401) {
+        setErrorMsg('Login failed');
+      }
+      errRef.current.focus();
+
+    }
   };
-
-
 
   return (
     <ThemeProvider theme={darkTheme}>
       <CssBaseline />
+      {/**<p ref={errRef} className={errorMsg ? "errmsg" : "offscreen"} aria-live='assertive'>{errorMsg}</p>*/}
       <Container component="main" maxWidth="xs" >
         <CssBaseline />
         <Box
@@ -74,11 +118,16 @@ const LogIn = () => {
               margin="normal"
               required
               fullWidth
-              id="email"
-              label="Email Address"
-              name="email"
-              autoComplete="email"
+              name="username"
+              label="Username"
+              type='text'
+              id="username"
+              autoComplete="off"
               autoFocus
+
+              ref={userRef}
+              onChange={(e) => setUser(e.target.value)}
+              value={user}
             />
             <TextField
               margin="normal"
@@ -88,7 +137,9 @@ const LogIn = () => {
               label="Password"
               type="password"
               id="password"
-              autoComplete="current-password"
+
+              onChange={(e) => setPassword(e.target.value)}
+              value={password}
             />
             <FormControlLabel
               control={<Checkbox value="remember" color="primary" />}
@@ -119,7 +170,7 @@ const LogIn = () => {
         </Box>
         <Copyright sx={{ mt: 8, mb: 4 }} />
       </Container>
-      </ThemeProvider>
+    </ThemeProvider>
   );
 }
 
