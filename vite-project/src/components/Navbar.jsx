@@ -9,7 +9,7 @@ const Navbar = () => {
 
         <Link to={"/"} className="title">
           <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-            App name
+            Zenekereső
           </span>
         </Link>
 
