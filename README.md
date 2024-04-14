@@ -11,7 +11,7 @@ Tailwind:
 
 Flowbite:
 - npm install flowbite flowbite-react
-- [További](https://flowbite.com/docs/getting-started/react/)
+- [Getting started](https://flowbite.com/docs/getting-started/react/)
   
 React Router: (Oldal navigáció, Bejelentkezés -> főoldal)
 - npm install react-router-dom
