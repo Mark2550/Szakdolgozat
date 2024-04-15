@@ -12,11 +12,11 @@ Tailwind:
 Flowbite:
 - npm install flowbite flowbite-react
 - [Getting started](https://flowbite.com/docs/getting-started/react/)
-  
-React Router: (Oldal navigáció, Bejelentkezés -> főoldal)
+
 - npm install react-router-dom
 - npm i date-fns  (date functions, installed as dependencies)
 - npm i nodemon -D (-D to install as Dependencies)
+- npm i express (for server)
 
 ## Struktúra
  - assets: kiegészitők pl. képek mennek ide
