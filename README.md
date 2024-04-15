@@ -27,6 +27,10 @@ Flowbite:
 
 Fix:  - npm install (Projekten belül)
 
+### ESLint Require/process is not defined
+
+[Fix](https://stackoverflow.com/questions/50894000/eslint-process-is-not-defined)
+
 # Források:
 - [Quick start](https://react.dev/learn)
 - [File input template tailwindcss](https://flowbite.com/docs/forms/file-input/)
