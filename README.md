@@ -2,8 +2,7 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 ___
 # Telepítés
 - npm create vite@latest
-cd vite_project
-- npm install
+- npm install (Projekten belül)
 
 Tailwind: 
 - npm install -D tailwindcss postcss autoprefixer
@@ -12,22 +11,23 @@ Tailwind:
 Flowbite:
 - npm install flowbite flowbite-react
 - [Getting started](https://flowbite.com/docs/getting-started/react/)
-  
-React Router: (Oldal navigáció, Bejelentkezés -> főoldal)
+
 - npm install react-router-dom
 - npm i date-fns  (date functions, installed as dependencies)
 - npm i nodemon -D (-D to install as Dependencies)
+- npm i express (szerverhez kell)
 
 ## Struktúra
- - assets: kiegészitők pl. képek mennek ide
  - components: weboldal felbontás külön részekre (navbar, footbar)
- - index.js: Ez exportálja a komponenseket (ne kelljen sokat importolni az App.jsx-be)
+ - index.js: exportálja a komponenseket (ne kelljen sokat importolni az App.jsx-be)
 
 # Errors
 
 ### Failed to load PostCSS config
 
 Fix:  - npm install (Projekten belül)
+
+### [ESLint Require/process is not defined](https://stackoverflow.com/questions/50894000/eslint-process-is-not-defined)
 
 # Források:
 - [Quick start](https://react.dev/learn)
