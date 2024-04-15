@@ -40,5 +40,6 @@ Fix:  - npm install (Projekten belül)
 
 # TODO
 - Add Alert msg to login page https://mui.com/material-ui/react-alert/
+- [Connect to MSSQL, database calls (video)](https://www.youtube.com/watch?v=Uh2JCSUjA_E&t=4s)
 # Megjegyzések
 Tailwind és React
