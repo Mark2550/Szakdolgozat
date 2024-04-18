@@ -14,7 +14,6 @@ import { ThemeProvider, createTheme } from '@mui/material/styles';
 
 import { useRef, useState, useEffect, useContext } from 'react';
 import AuthContext from '../context/Authentication';
-
 import axios from '../api/axios';
 
 import { Link } from "react-router-dom";
@@ -36,7 +35,7 @@ function Copyright(props) {
 const LOGIN_URL = '/auth';
 
 const LogIn = () => {
-  const { setAuth } = useContext(AuthContext)
+  const { setAuth } = useContext(AuthContext);
   const userRef = useRef();
   const errRef = useRef();
 
@@ -67,11 +66,11 @@ const LogIn = () => {
         }
       );
       console.log(JSON.stringify(response?.data));
-      //console.log(JSON:stringify(response));
+      console.log(JSON.stringify(response));
       const accessToken = response?.data?.accessToken;
       const roles = response?.data?.roles;
-      setAuth({ user, password, roles, accessToken });
 
+      setAuth({ user, password, roles, accessToken });
       setUser('');
       setPassword('');
       setSuccess(true);

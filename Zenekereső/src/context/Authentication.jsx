@@ -1,15 +1,23 @@
-import { createContext, useState } from 'react' ;
+import { createContext, useState } from 'react';
+import PropTypes from 'prop-types';     
+/* 
+ * second import to resolve children prop balidation error in line 9 
+ */
 
 const AuthContext = createContext({});
 
 export const Authentication = ({ children }) => {
-    const [auth, setAuth] = useState ({});
+    const [auth, setAuth] = useState({});
 
     return (
-        <AuthContext.Provider value={{ auth, setAuth}}>
+        <AuthContext.Provider value={{ auth, setAuth }}>
             { children }
         </AuthContext.Provider>
     )
 }
 
-export default AuthContext;
+Authentication.propTypes = {
+    children: PropTypes.node.isRequired, // Define children prop as required node
+  };
+
+export default AuthContext; 
