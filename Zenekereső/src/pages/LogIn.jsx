@@ -10,19 +10,11 @@ import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 
-import { ThemeProvider, createTheme } from '@mui/material/styles';
-
 import { useRef, useState, useEffect, useContext } from 'react';
 import AuthContext from '../context/Authentication';
 import axios from '../api/axios';
 
 import { Link } from "react-router-dom";
-
-const darkTheme = createTheme({
-  palette: {
-    mode: 'dark',
-  },
-});
 
 function Copyright(props) {
   return (
@@ -57,8 +49,7 @@ const LogIn = () => {
     e.preventDefault();
 
     try {
-      const response = await axios.post(
-        LOGIN_URL,
+      const response = await axios.post(LOGIN_URL,
         JSON.stringify({ user, password }),
         {
           headers: { 'Content-type': 'application/json' },
@@ -85,18 +76,20 @@ const LogIn = () => {
       } else if (err?.response?.status == 400) {
         setErrorMsg('Missing username or password');
       } else if (err?.response?.status == 401) {
+        setErrorMsg('Unauthorized');
+      }else {
         setErrorMsg('Login failed');
       }
       errRef.current.focus();
     }
 
-    if (success){
+    if (success) {
       alert("sikeres bejelentkezés");
     }
   };
 
   return (
-    <ThemeProvider theme={darkTheme}>
+    <div>
       <CssBaseline />
       <Container component="main" maxWidth="xs" >
         <CssBaseline />
@@ -173,7 +166,7 @@ const LogIn = () => {
         </Box>
         <Copyright sx={{ mt: 8, mb: 4 }} />
       </Container>
-    </ThemeProvider>
+      </div>
   );
 }
 
