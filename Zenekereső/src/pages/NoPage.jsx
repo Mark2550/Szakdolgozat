@@ -1,9 +1,7 @@
 const NoPage = () => {
   return (
     <div>
-        <h1>
-            Page is unavailable {':('}
-        </h1>
+          <p className="text-3xl text-gray-900 dark:text-white">Page is unavailable {':('}</p>   
     </div>
   )
 }
