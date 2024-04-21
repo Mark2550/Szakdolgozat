@@ -17,8 +17,8 @@ ___
 - npm i axios
 
 ## Szerver / local futtatás
-```package.json
-
+```
+package.json:
 "scripts": {
     "start": "node server",
     "dev": "node server",
