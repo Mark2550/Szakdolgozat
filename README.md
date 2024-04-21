@@ -4,11 +4,9 @@ ___
 - npm create vite@latest
 - npm install (Projekten belül)
 
-Tailwind: 
 - npm install -D tailwindcss postcss autoprefixer
 - npx tailwindcss init -p
 
-Flowbite:
 - npm install flowbite flowbite-react
 - [Getting started](https://flowbite.com/docs/getting-started/react/)
 
@@ -17,6 +15,20 @@ Flowbite:
 - npm i nodemon -D (-D to install as Dependencies)
 - npm i express (szerverhez kell)
 - npm i axios
+
+## Szerver / local futtatás
+```package.json
+
+"scripts": {
+    "start": "node server",
+    "dev": "node server",
+    ... },
+
+"scripts": {
+    "start": "node index",
+    "dev": "vite",
+    ... },
+```
 
 ## Struktúra
  - components: weboldal felbontás külön részekre (navbar, footbar)
