@@ -16,6 +16,7 @@ Flowbite:
 - npm i date-fns  (date functions, installed as dependencies)
 - npm i nodemon -D (-D to install as Dependencies)
 - npm i express (szerverhez kell)
+- npm i axios
 
 ## Struktúra
  - components: weboldal felbontás külön részekre (navbar, footbar)
