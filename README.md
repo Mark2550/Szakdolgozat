@@ -2,23 +2,29 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 ___
 # Telepítés
 - npm create vite@latest
-- npm install (Projekten belül)
+- npm i (Projekten belül)
 
-- npm install -D tailwindcss postcss autoprefixer
+- npm i -D tailwindcss postcss autoprefixer
 - npx tailwindcss init -p
 
-- npm install flowbite flowbite-react
+- npm i flowbite flowbite-react
 - [Getting started](https://flowbite.com/docs/getting-started/react/)
 
 - npm install react-router-dom
-- npm i date-fns  (date functions, installed as dependencies)
+- npm i date-fns  (date functions, installed as dependencies) - not currently used
 - npm i nodemon -D (-D to install as Dependencies)
-- npm i express (szerverhez kell)
+- npm i express (Server communication)
 - npm i axios
+- npm i nodemon (Page refresh when making changes in files, not needed when not using SSR)
 
 ## Szerver / local futtatás
-```
 package.json:
+```
+"scripts": {
+    "start": "nodemon server",
+    "dev": "nodemon server",
+    ... },
+
 "scripts": {
     "start": "node server",
     "dev": "node server",
@@ -29,10 +35,6 @@ package.json:
     "dev": "vite",
     ... },
 ```
-
-## Struktúra
- - components: weboldal felbontás külön részekre (navbar, footbar)
- - index.js: exportálja a komponenseket (ne kelljen sokat importolni az App.jsx-be)
 
 # Errors
 
