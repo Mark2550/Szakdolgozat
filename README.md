@@ -51,6 +51,7 @@ Fix:  - npm install (Projekten belül)
 - [Audio identification services](https://acoustid.biz/)
 - [Types of Routes](https://www.geeksforgeeks.org/reactjs-types-of-routers/)
 - [Server side configuration with Vite](https://vitejs.dev/guide/ssr)
+
 ...[Github code of it](https://github.com/bluwy/create-vite-extra/blob/master/template-ssr-react/package.json)
 
 # TODO
