@@ -53,7 +53,9 @@ Fix:  - npm install (Projekten belül)
 - [Server side configuration with Vite](https://vitejs.dev/guide/ssr) - [Github code of it](https://github.com/bluwy/create-vite-extra/blob/master/template-ssr-react/package.json)
 
 # TODO
-- Add Alert msg to login page https://mui.com/material-ui/react-alert/
+- Add Alert MSG to login page https://mui.com/material-ui/react-alert/
+- Resize search bar on main page
+- Add table with items on main page
+- Create about/service page (do something with them..)
+- Add toggle (top left, next to the app name) with Theme (dark/white mode)
 - [Connect to MSSQL, database calls (video)](https://www.youtube.com/watch?v=Uh2JCSUjA_E&t=4s)
-# Megjegyzések
-Tailwind és React
