@@ -24,12 +24,14 @@ package.json:
     "start": "nodemon server",
     "dev": "nodemon server",
     ... },
-
+```
+```
 "scripts": {
     "start": "node server",
     "dev": "node server",
     ... },
-
+```
+```
 "scripts": {
     "start": "node index",
     "dev": "vite",
