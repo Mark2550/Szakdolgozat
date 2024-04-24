@@ -1,0 +1,802 @@
+[
+    {
+        "track_id": 1,
+        "Title": "Old Fashioned Way, The",
+        "Artist": "Aurelia Chinnery",
+        "Album": null,
+        "Release date": "1996-02-04",
+        "Duration": "414s"
+    },
+    {
+        "track_id": 2,
+        "Title": "Jack and Diane",
+        "Artist": "Federica Wilshere",
+        "Album": null,
+        "Release date": "2002-02-02",
+        "Duration": "585s"
+    },
+    {
+        "track_id": 3,
+        "Title": "Monitors, The",
+        "Artist": "Patricia Oxshott",
+        "Album": "Pink",
+        "Release date": "1912-08-09",
+        "Duration": "204s"
+    },
+    {
+        "track_id": 4,
+        "Title": "Great Train Robbery, The",
+        "Artist": "Leonard Perree",
+        "Album": "Yellow",
+        "Release date": "1902-03-13",
+        "Duration": "518s"
+    },
+    {
+        "track_id": 5,
+        "Title": "Ladies Man, The",
+        "Artist": "Enrico Kleinpeltz",
+        "Album": null,
+        "Release date": "1949-10-16",
+        "Duration": "164s"
+    },
+    {
+        "track_id": 6,
+        "Title": "Abandon",
+        "Artist": "Hillier Dominighi",
+        "Album": null,
+        "Release date": "1985-02-04",
+        "Duration": "285s"
+    },
+    {
+        "track_id": 7,
+        "Title": "My Dear Desperado",
+        "Artist": null,
+        "Album": "Aquamarine",
+        "Release date": "1929-02-18",
+        "Duration": "415s"
+    },
+    {
+        "track_id": 8,
+        "Title": "Actress, the Dollars and the Transylvanians, The (Artista, dolarii si Ardelenii)",
+        "Artist": "Hamlin Kermit",
+        "Album": null,
+        "Release date": "1957-08-03",
+        "Duration": "555s"
+    },
+    {
+        "track_id": 9,
+        "Title": "English Teacher, The",
+        "Artist": "Morgun Cahen",
+        "Album": "Purple",
+        "Release date": "1955-12-11",
+        "Duration": "511s"
+    },
+    {
+        "track_id": 10,
+        "Title": "Lord of the Flies",
+        "Artist": "Cilka Caseborne",
+        "Album": "Goldenrod",
+        "Release date": "2003-12-24",
+        "Duration": "402s"
+    },
+    {
+        "track_id": 11,
+        "Title": "How 2 Build a Rapper",
+        "Artist": "Lucien Gronaller",
+        "Album": "Fuscia",
+        "Release date": "2021-03-27",
+        "Duration": "171s"
+    },
+    {
+        "track_id": 12,
+        "Title": "Superman",
+        "Artist": "Mureil Pether",
+        "Album": "Blue",
+        "Release date": "1924-11-16",
+        "Duration": "441s"
+    },
+    {
+        "track_id": 13,
+        "Title": "Lost Reels of Pancho Villa, The (Los rollos perdidos de Pancho Villa)",
+        "Artist": "Eugine Bugg",
+        "Album": null,
+        "Release date": "1958-08-01",
+        "Duration": "456s"
+    },
+    {
+        "track_id": 14,
+        "Title": "House of Frankenstein",
+        "Artist": "Dukey Doogan",
+        "Album": "Teal",
+        "Release date": "1998-05-28",
+        "Duration": "110s"
+    },
+    {
+        "track_id": 15,
+        "Title": "Armageddon (Armaguedon)",
+        "Artist": "Aldo Gudge",
+        "Album": "Fuscia",
+        "Release date": "1907-08-02",
+        "Duration": "500s"
+    },
+    {
+        "track_id": 16,
+        "Title": "Artist, The",
+        "Artist": "Harcourt Cowndley",
+        "Album": "Purple",
+        "Release date": "1954-11-28",
+        "Duration": "515s"
+    },
+    {
+        "track_id": 17,
+        "Title": "Forks Over Knives",
+        "Artist": "Casie Whittlesey",
+        "Album": "Aquamarine",
+        "Release date": "1999-11-27",
+        "Duration": "105s"
+    },
+    {
+        "track_id": 18,
+        "Title": "Ping Pong Summer",
+        "Artist": "Zulema Holtum",
+        "Album": null,
+        "Release date": "1912-01-09",
+        "Duration": "280s"
+    },
+    {
+        "track_id": 19,
+        "Title": "D.C. Cab",
+        "Artist": "Garvey Alvin",
+        "Album": "Puce",
+        "Release date": "1954-04-04",
+        "Duration": "169s"
+    },
+    {
+        "track_id": 20,
+        "Title": "Amos & Andrew",
+        "Artist": "Ronnie Doudny",
+        "Album": "Goldenrod",
+        "Release date": "1964-12-21",
+        "Duration": "333s"
+    },
+    {
+        "track_id": 21,
+        "Title": "Nirvana",
+        "Artist": null,
+        "Album": "Turquoise",
+        "Release date": "2004-12-07",
+        "Duration": "316s"
+    },
+    {
+        "track_id": 22,
+        "Title": "Double Team",
+        "Artist": "Freddy Rooksby",
+        "Album": "Fuscia",
+        "Release date": "1918-12-08",
+        "Duration": "477s"
+    },
+    {
+        "track_id": 23,
+        "Title": "Coming Out",
+        "Artist": null,
+        "Album": "Green",
+        "Release date": "1987-12-16",
+        "Duration": "433s"
+    },
+    {
+        "track_id": 24,
+        "Title": "Air Force One",
+        "Artist": "Feliza Gosson",
+        "Album": "Blue",
+        "Release date": "1959-01-12",
+        "Duration": "580s"
+    },
+    {
+        "track_id": 25,
+        "Title": "Wise Kids, The",
+        "Artist": "Monroe Dunnet",
+        "Album": "Crimson",
+        "Release date": "1965-07-01",
+        "Duration": "395s"
+    },
+    {
+        "track_id": 26,
+        "Title": "New Life, A (La vie nouvelle)",
+        "Artist": "Hedy Floch",
+        "Album": "Maroon",
+        "Release date": "1959-01-23",
+        "Duration": "493s"
+    },
+    {
+        "track_id": 27,
+        "Title": "Magical Mystery Tour",
+        "Artist": "Blakeley Blyden",
+        "Album": "Crimson",
+        "Release date": "1989-07-10",
+        "Duration": "543s"
+    },
+    {
+        "track_id": 28,
+        "Title": "Confessor, The (a.k.a. The Good Shepherd)",
+        "Artist": "Helen Raw",
+        "Album": "Indigo",
+        "Release date": "1915-01-16",
+        "Duration": "419s"
+    },
+    {
+        "track_id": 29,
+        "Title": "Adam and Eve (Adão e Eva)",
+        "Artist": "Karoly Bolderstone",
+        "Album": "Teal",
+        "Release date": "2006-11-25",
+        "Duration": "549s"
+    },
+    {
+        "track_id": 30,
+        "Title": "Next Best Thing, The",
+        "Artist": "Linea Outram",
+        "Album": "Puce",
+        "Release date": "1956-02-03",
+        "Duration": "130s"
+    },
+    {
+        "track_id": 31,
+        "Title": "Hustle & Flow",
+        "Artist": "Brucie Jedrzejewsky",
+        "Album": "Violet",
+        "Release date": "1988-12-22",
+        "Duration": "331s"
+    },
+    {
+        "track_id": 32,
+        "Title": "Common Places (a.k.a. Common Ground) (Lugares comunes)",
+        "Artist": "Franky Bradneck",
+        "Album": "Teal",
+        "Release date": "1956-07-05",
+        "Duration": "312s"
+    },
+    {
+        "track_id": 33,
+        "Title": "Departures (Okuribito)",
+        "Artist": "Laverne Dibdin",
+        "Album": "Teal",
+        "Release date": "1957-03-11",
+        "Duration": "174s"
+    },
+    {
+        "track_id": 34,
+        "Title": "Double Impact",
+        "Artist": "Jenn Shorto",
+        "Album": "Violet",
+        "Release date": "1932-03-30",
+        "Duration": "299s"
+    },
+    {
+        "track_id": 35,
+        "Title": "Underworld U.S.A.",
+        "Artist": "Austina Ruit",
+        "Album": "Turquoise",
+        "Release date": "1996-08-26",
+        "Duration": "560s"
+    },
+    {
+        "track_id": 36,
+        "Title": "Hi-Lo Country, The",
+        "Artist": "Fiorenze Ackred",
+        "Album": "Puce",
+        "Release date": "1965-05-27",
+        "Duration": "273s"
+    },
+    {
+        "track_id": 37,
+        "Title": "Confidential Report",
+        "Artist": "Taber Shilito",
+        "Album": null,
+        "Release date": "1927-12-19",
+        "Duration": "567s"
+    },
+    {
+        "track_id": 38,
+        "Title": "This World, Then the Fireworks",
+        "Artist": "Jamison Caldera",
+        "Album": "Mauv",
+        "Release date": "1967-09-23",
+        "Duration": "310s"
+    },
+    {
+        "track_id": 39,
+        "Title": "Diary of a Hitman",
+        "Artist": "Ernesto Jans",
+        "Album": "Aquamarine",
+        "Release date": "2012-05-26",
+        "Duration": "201s"
+    },
+    {
+        "track_id": 40,
+        "Title": "Half of a Yellow Sun",
+        "Artist": "Averyl Thorpe",
+        "Album": "Turquoise",
+        "Release date": "1999-07-27",
+        "Duration": "536s"
+    },
+    {
+        "track_id": 41,
+        "Title": "Sex & the Other Man",
+        "Artist": "Brnaba Kretschmer",
+        "Album": "Orange",
+        "Release date": "2004-03-23",
+        "Duration": "440s"
+    },
+    {
+        "track_id": 42,
+        "Title": "Paradine Case, The",
+        "Artist": "Devon Larner",
+        "Album": "Violet",
+        "Release date": "2015-01-01",
+        "Duration": "262s"
+    },
+    {
+        "track_id": 43,
+        "Title": "My Love Has Been Burning (Waga koi wa moenu)",
+        "Artist": "Zsazsa Ewens",
+        "Album": "Purple",
+        "Release date": "2019-02-17",
+        "Duration": "560s"
+    },
+    {
+        "track_id": 44,
+        "Title": "Girl Play",
+        "Artist": "Rhiamon Rye",
+        "Album": "Khaki",
+        "Release date": "1958-07-16",
+        "Duration": "516s"
+    },
+    {
+        "track_id": 45,
+        "Title": "13/13/13",
+        "Artist": "Kelli Labroue",
+        "Album": "Mauv",
+        "Release date": "1999-07-02",
+        "Duration": "269s"
+    },
+    {
+        "track_id": 46,
+        "Title": "Dirties, The",
+        "Artist": "Annmaria Lovitt",
+        "Album": "Purple",
+        "Release date": "1928-05-10",
+        "Duration": "265s"
+    },
+    {
+        "track_id": 47,
+        "Title": "Satan's Sword (Daibosatsu tôge)",
+        "Artist": "Nancee Midford",
+        "Album": "Green",
+        "Release date": "1939-08-17",
+        "Duration": "108s"
+    },
+    {
+        "track_id": 48,
+        "Title": "588 Rue Paradis (Mother)",
+        "Artist": "Rosalynd Swyndley",
+        "Album": null,
+        "Release date": "1964-03-08",
+        "Duration": "464s"
+    },
+    {
+        "track_id": 49,
+        "Title": "Wilbur Wants to Kill Himself",
+        "Artist": "Maddie Eyers",
+        "Album": "Aquamarine",
+        "Release date": "2004-11-17",
+        "Duration": "179s"
+    },
+    {
+        "track_id": 50,
+        "Title": "Immortals",
+        "Artist": "Lilyan Winterbottom",
+        "Album": "Purple",
+        "Release date": "1920-02-09",
+        "Duration": "553s"
+    },
+    {
+        "track_id": 51,
+        "Title": "Noah's Ark",
+        "Artist": "Wilbert Ghidotti",
+        "Album": "Mauv",
+        "Release date": "1979-04-24",
+        "Duration": "494s"
+    },
+    {
+        "track_id": 52,
+        "Title": "Blood Feast",
+        "Artist": "Harriet Dahlborg",
+        "Album": "Turquoise",
+        "Release date": "1979-10-04",
+        "Duration": "535s"
+    },
+    {
+        "track_id": 53,
+        "Title": "Darkon",
+        "Artist": "Lynde Schimke",
+        "Album": null,
+        "Release date": "1960-07-29",
+        "Duration": "330s"
+    },
+    {
+        "track_id": 54,
+        "Title": "G.I. Joe: The Revenge of Cobra",
+        "Artist": "Elga Steers",
+        "Album": "Crimson",
+        "Release date": "2017-01-19",
+        "Duration": "484s"
+    },
+    {
+        "track_id": 55,
+        "Title": "Harvard Beats Yale 29-29",
+        "Artist": "Susannah Sibbert",
+        "Album": "Puce",
+        "Release date": "1973-05-30",
+        "Duration": "186s"
+    },
+    {
+        "track_id": 56,
+        "Title": "The Party",
+        "Artist": "Kristen Plascott",
+        "Album": "Purple",
+        "Release date": "2006-03-29",
+        "Duration": "421s"
+    },
+    {
+        "track_id": 57,
+        "Title": "Too Many Cooks",
+        "Artist": "Emyle Aleevy",
+        "Album": "Blue",
+        "Release date": "1982-03-15",
+        "Duration": "240s"
+    },
+    {
+        "track_id": 58,
+        "Title": "Edge of Tomorrow",
+        "Artist": "Esther Totterdill",
+        "Album": "Green",
+        "Release date": "1965-06-25",
+        "Duration": "392s"
+    },
+    {
+        "track_id": 59,
+        "Title": "Dry Cleaning (Nettoyage à sec)",
+        "Artist": "Briant Merkel",
+        "Album": null,
+        "Release date": "1988-08-06",
+        "Duration": "551s"
+    },
+    {
+        "track_id": 60,
+        "Title": "For Neda",
+        "Artist": "Jayme Fransoni",
+        "Album": "Maroon",
+        "Release date": "1932-05-19",
+        "Duration": "215s"
+    },
+    {
+        "track_id": 61,
+        "Title": "The Cyclone",
+        "Artist": "Dorree Mapp",
+        "Album": "Teal",
+        "Release date": "1951-02-17",
+        "Duration": "325s"
+    },
+    {
+        "track_id": 62,
+        "Title": "Looking for Hortense (Cherchez Hortense) ",
+        "Artist": "Torey Duthie",
+        "Album": "Indigo",
+        "Release date": "1970-02-21",
+        "Duration": "166s"
+    },
+    {
+        "track_id": 63,
+        "Title": "Jack-O",
+        "Artist": "Darby Giacobelli",
+        "Album": null,
+        "Release date": "2011-07-02",
+        "Duration": "522s"
+    },
+    {
+        "track_id": 64,
+        "Title": "Let the Bullets Fly",
+        "Artist": "Rita Calvey",
+        "Album": "Purple",
+        "Release date": "1943-03-12",
+        "Duration": "221s"
+    },
+    {
+        "track_id": 65,
+        "Title": "Someone Else's America",
+        "Artist": "Benedikt Bowery",
+        "Album": "Teal",
+        "Release date": "1982-12-21",
+        "Duration": "505s"
+    },
+    {
+        "track_id": 66,
+        "Title": "Cinderella Man",
+        "Artist": "Caz Marchello",
+        "Album": "Violet",
+        "Release date": "1929-11-05",
+        "Duration": "236s"
+    },
+    {
+        "track_id": 67,
+        "Title": "Cry of the Banshee",
+        "Artist": "Tisha Dutteridge",
+        "Album": "Mauv",
+        "Release date": "1987-11-08",
+        "Duration": "476s"
+    },
+    {
+        "track_id": 68,
+        "Title": "For All Mankind",
+        "Artist": null,
+        "Album": "Orange",
+        "Release date": "1955-05-20",
+        "Duration": "382s"
+    },
+    {
+        "track_id": 69,
+        "Title": "Scarlet Letter, The",
+        "Artist": "Katleen Browncey",
+        "Album": "Yellow",
+        "Release date": "1937-02-16",
+        "Duration": "178s"
+    },
+    {
+        "track_id": 70,
+        "Title": "Madagascar",
+        "Artist": "Madalyn Polhill",
+        "Album": "Crimson",
+        "Release date": "2009-08-16",
+        "Duration": "421s"
+    },
+    {
+        "track_id": 71,
+        "Title": "Stardust Memories",
+        "Artist": "Roma Adlard",
+        "Album": "Puce",
+        "Release date": "1905-06-14",
+        "Duration": "563s"
+    },
+    {
+        "track_id": 72,
+        "Title": "Husbands",
+        "Artist": "Ad Morais",
+        "Album": null,
+        "Release date": "1959-01-06",
+        "Duration": "111s"
+    },
+    {
+        "track_id": 73,
+        "Title": "Twister",
+        "Artist": "Dorolice Ethridge",
+        "Album": "Red",
+        "Release date": "1905-08-15",
+        "Duration": "435s"
+    },
+    {
+        "track_id": 74,
+        "Title": "Lost Reels of Pancho Villa, The (Los rollos perdidos de Pancho Villa)",
+        "Artist": "Dre Milkeham",
+        "Album": "Pink",
+        "Release date": "1924-03-15",
+        "Duration": "312s"
+    },
+    {
+        "track_id": 75,
+        "Title": "Dark Angel (I Come in Peace)",
+        "Artist": "Cristina Madgwick",
+        "Album": "Khaki",
+        "Release date": "1959-08-24",
+        "Duration": "289s"
+    },
+    {
+        "track_id": 76,
+        "Title": "Underworld: Awakening",
+        "Artist": "Cheri Merredy",
+        "Album": "Purple",
+        "Release date": "2024-03-10",
+        "Duration": "212s"
+    },
+    {
+        "track_id": 77,
+        "Title": "Eternal Return, The (L'éternel retour)",
+        "Artist": "Scarface Jessope",
+        "Album": "Blue",
+        "Release date": "1963-02-10",
+        "Duration": "313s"
+    },
+    {
+        "track_id": 78,
+        "Title": "Insidious: Chapter 2",
+        "Artist": "Annnora Klouz",
+        "Album": "Maroon",
+        "Release date": "1956-06-30",
+        "Duration": "304s"
+    },
+    {
+        "track_id": 79,
+        "Title": "Chuck Norris vs Communism",
+        "Artist": "Blair Prosch",
+        "Album": "Khaki",
+        "Release date": "1971-02-24",
+        "Duration": "503s"
+    },
+    {
+        "track_id": 80,
+        "Title": "Salvation Boulevard",
+        "Artist": null,
+        "Album": "Green",
+        "Release date": "1984-11-02",
+        "Duration": "262s"
+    },
+    {
+        "track_id": 81,
+        "Title": "Affairs of Anatol, The",
+        "Artist": "Quent Henden",
+        "Album": null,
+        "Release date": "1950-07-18",
+        "Duration": "273s"
+    },
+    {
+        "track_id": 82,
+        "Title": "Abbott and Costello Meet the Killer, Boris Karloff",
+        "Artist": "Manya Stode",
+        "Album": "Violet",
+        "Release date": "1976-12-03",
+        "Duration": "143s"
+    },
+    {
+        "track_id": 83,
+        "Title": "Evil Dead, The",
+        "Artist": "Sherlock Lockett",
+        "Album": "Goldenrod",
+        "Release date": "1975-04-19",
+        "Duration": "111s"
+    },
+    {
+        "track_id": 84,
+        "Title": "Playing from the Plate (Grajacy z talerza)",
+        "Artist": "Adelaide Wilder",
+        "Album": "Blue",
+        "Release date": "1936-09-07",
+        "Duration": "257s"
+    },
+    {
+        "track_id": 85,
+        "Title": "Of Gods and Men (Des hommes et des dieux)",
+        "Artist": "Callida Kersaw",
+        "Album": "Crimson",
+        "Release date": "1960-10-20",
+        "Duration": "383s"
+    },
+    {
+        "track_id": 86,
+        "Title": "Virtual JFK: Vietnam If Kennedy Had Lived",
+        "Artist": "Welch Brydon",
+        "Album": "Green",
+        "Release date": "1916-11-05",
+        "Duration": "504s"
+    },
+    {
+        "track_id": 87,
+        "Title": "Lost in America",
+        "Artist": "Karney Hacket",
+        "Album": "Aquamarine",
+        "Release date": "1912-03-06",
+        "Duration": "350s"
+    },
+    {
+        "track_id": 88,
+        "Title": "David Cross: Let America Laugh",
+        "Artist": "Tate Gosnold",
+        "Album": "Red",
+        "Release date": "1952-06-16",
+        "Duration": "545s"
+    },
+    {
+        "track_id": 89,
+        "Title": "Rockers",
+        "Artist": "Aime Deguara",
+        "Album": "Orange",
+        "Release date": "1993-12-13",
+        "Duration": "374s"
+    },
+    {
+        "track_id": 90,
+        "Title": "Dirty Filthy Love",
+        "Artist": "Eda Bellew",
+        "Album": "Turquoise",
+        "Release date": "1928-11-14",
+        "Duration": "519s"
+    },
+    {
+        "track_id": 91,
+        "Title": "The Trans-Atlantic Mystery",
+        "Artist": "Bernadette Drohun",
+        "Album": "Yellow",
+        "Release date": "1909-02-25",
+        "Duration": "147s"
+    },
+    {
+        "track_id": 92,
+        "Title": "Phone Booth",
+        "Artist": "Ariadne Patullo",
+        "Album": "Maroon",
+        "Release date": "1968-08-03",
+        "Duration": "536s"
+    },
+    {
+        "track_id": 93,
+        "Title": "WALL·E",
+        "Artist": "Erl Elves",
+        "Album": "Blue",
+        "Release date": "1977-03-25",
+        "Duration": "219s"
+    },
+    {
+        "track_id": 94,
+        "Title": "Story of the Late Chrysanthemums, The (Zangiku monogatari)",
+        "Artist": "Ferris Brunskill",
+        "Album": "Maroon",
+        "Release date": "1902-08-13",
+        "Duration": "386s"
+    },
+    {
+        "track_id": 95,
+        "Title": "The Gallant Hours",
+        "Artist": "Timothy Ronaghan",
+        "Album": null,
+        "Release date": "1984-11-13",
+        "Duration": "584s"
+    },
+    {
+        "track_id": 96,
+        "Title": "Doctors' Wives",
+        "Artist": "Friederike Kershaw",
+        "Album": "Goldenrod",
+        "Release date": "2022-08-25",
+        "Duration": "244s"
+    },
+    {
+        "track_id": 97,
+        "Title": "Troubled Water (DeUsynlige)",
+        "Artist": "Christine Enrigo",
+        "Album": "Teal",
+        "Release date": "2020-06-27",
+        "Duration": "330s"
+    },
+    {
+        "track_id": 98,
+        "Title": "Guns of the Magnificent Seven",
+        "Artist": "Sandie Itscowicz",
+        "Album": null,
+        "Release date": "1914-11-26",
+        "Duration": "218s"
+    },
+    {
+        "track_id": 99,
+        "Title": "My Mom's New Boyfriend",
+        "Artist": "Garry Mogey",
+        "Album": null,
+        "Release date": "1909-06-14",
+        "Duration": "295s"
+    },
+    {
+        "track_id": 100,
+        "Title": "Tron: Legacy",
+        "Artist": "Paolo Kenningham",
+        "Album": "Mauv",
+        "Release date": "1960-10-05",
+        "Duration": "149s"
+    }
+]
