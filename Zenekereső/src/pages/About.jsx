@@ -12,7 +12,11 @@ const About = () => {
           {"Search by default: Simply enter a keyword or phrase related to the kind of music you're looking for, and the app will search for relevant copyright-free music."}
         </li>
         <li>
-          {"Upload a Music File: Upload an audio file of an existing song you'd like to identify. The app will use an audio fingerprinting technology to match the file with our database of copyright-free music through an API call to ACRCloud."}
+          {" Upload through file"}
+          {": Upload an audio file of an existing song you'd like to identify. The app will use an audio fingerprinting technology to match the file with our database of copyright-free music through an API call to "}
+          <a href="https://www.acrcloud.com/" target="_blank" rel="noopener noreferrer">
+            {"ACRCloud. "}
+          </a>
         </li>
       </ul>
       <p>
