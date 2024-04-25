@@ -1,6 +1,6 @@
 https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 ___
-# Telepítés
+# Installation
 - npm create vite@latest
 - npm i (Projekten belül)
 
@@ -40,13 +40,9 @@ package.json:
 
 # Errors
 
-### Failed to load PostCSS config
-
-Fix:  - npm install (Projekten belül)
-
 ### [ESLint Require/process is not defined](https://stackoverflow.com/questions/50894000/eslint-process-is-not-defined)
 
-# Források:
+# Sources:
 - [Quick start](https://react.dev/learn)
 - [File input template tailwindcss](https://flowbite.com/docs/forms/file-input/)
 - [Navbar](https://flowbite.com/docs/components/navbar/)
@@ -55,6 +51,8 @@ Fix:  - npm install (Projekten belül)
 - [Audio identification services](https://acoustid.biz/)
 - [Types of Routes](https://www.geeksforgeeks.org/reactjs-types-of-routers/)
 - [Generating Data](https://www.mockaroo.com/)
+- [Page icon](https://www.flaticon.com/free-icon/music_2402461?term=music&related_id=2402461)
+- [Pagination / paging](https://www.geeksforgeeks.org/react-mui-pagination-api/) (/MUI)
 
 # TODO
 - Add Alert MSG to login page https://mui.com/material-ui/react-alert/
