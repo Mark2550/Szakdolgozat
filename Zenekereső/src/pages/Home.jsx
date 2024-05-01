@@ -1,16 +1,13 @@
 import Fileupload from "../components/Fileupload"
-import Searchbar from "../components/Searchbar"
 import Table from "../components/Table"
 
 const Mainpage = () => {
     return (
-        <div className="">
-            <div className="">
-                <Searchbar />
-                <br />
+        <div>
+            <div>
                 <Table />
             </div>
-            <div className="overflow-scroll">
+            <div>
                 
             </div>
             <div>

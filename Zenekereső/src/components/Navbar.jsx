@@ -6,13 +6,17 @@ const Navbar = () => {
     <nav className="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
 
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-      <img className="w-10 p-0 m-0" src="/music.ico" alt="App icon by Freepik" />
+
         <Link to={"/"} className="title">
-          
-          <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-            Sargazam
+
+          <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white flex">
+            <img className="w-10 p-0 m-0" src="/music.ico" alt="App icon by Freepik" />
+            <span className="ml-2">
+              Sargazam
+            </span>
           </span>
         </Link>
+
 
         <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
 
@@ -54,28 +58,28 @@ const Navbar = () => {
             <li>
 
               <NavLink to={"/"} className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
-                  Home
+                Home
               </NavLink>
 
             </li>
             <li>
 
               <NavLink to={"/About"} className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
-                  About
+                About
               </NavLink>
 
             </li>
             <li>
 
               <NavLink to={"/Services"} className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
-                  Services
+                Services
               </NavLink>
 
             </li>
             <li>
 
               <NavLink to={"/Contact"} className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
-                  Contact
+                Contact
               </NavLink>
 
             </li>
