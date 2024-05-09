@@ -15,7 +15,6 @@ ___
 - npm i nodemon -D (-D to install as Dependencies)
 - npm i express (Server communication)
 - npm i axios
-- npm i nodemon (Page refresh when making changes in files, not needed when not using SSR)
 
 ## Szerver / local futtatás
 package.json:
