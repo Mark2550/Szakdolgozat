@@ -8,9 +8,6 @@ const Mainpage = () => {
                 <Table />
             </div>
             <div>
-                
-            </div>
-            <div>
                 <h1 className="text-3xl font-bold">
                     Upload file here
                 </h1>

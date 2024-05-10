@@ -14,7 +14,7 @@ const Fileupload = () => {
                 </span> or drag & drop
             </p>
             <p className="text-xs text-gray-500 dark:text-gray-400">
-                Max size: 10MB
+                Max size: 25MB
             </p>
         </div>
         <input

@@ -19,7 +19,7 @@ import { Link } from "react-router-dom";
 function Copyright(props) {
   return (
     <Typography variant="body2" color="text.secondary" align="center" {...props}>
-      {'Copyright © Zenekereső '} {new Date().getFullYear()}
+      {'Copyright © Sargazam '} {new Date().getFullYear()}
     </Typography>
   );
 }
@@ -84,7 +84,9 @@ const LogIn = () => {
     }
 
     if (success) {
-      alert("sikeres bejelentkezés");
+      alert("Logged in succesfully");
+    } else {
+      alert("Login failed")
     }
   };
 

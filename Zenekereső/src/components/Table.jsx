@@ -7,7 +7,7 @@ import "./Table.css"
 const Table = () => {
 
     const [page, setPage] = useState(1);
-    const recordsPerPage = 15;
+    const recordsPerPage = 10;
     const lastIndex = page * recordsPerPage;
     const firstIndex = lastIndex - recordsPerPage;
     const records = data.slice(firstIndex, lastIndex);
@@ -81,7 +81,6 @@ const Table = () => {
                     </button>
                 </div>
             </form>
-
             <Stack spacing={2}>
                 <Pagination
                     count={npage}

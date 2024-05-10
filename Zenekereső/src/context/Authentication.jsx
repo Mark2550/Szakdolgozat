@@ -17,7 +17,7 @@ export const Authentication = ({ children }) => {
 }
 
 Authentication.propTypes = {
-    children: PropTypes.node.isRequired, // Define children prop as required node
+    children: PropTypes.node.isRequired,
   };
 
 export default AuthContext; 
