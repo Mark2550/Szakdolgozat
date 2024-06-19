@@ -15,6 +15,7 @@ ___
 - npm i nodemon -D (-D to install as Dependencies)
 - npm i express (Server communication)
 - npm i axios
+- npm install -g netlify-cli (online deploy)
 
 ## Szerver / local futtatás
 package.json:
