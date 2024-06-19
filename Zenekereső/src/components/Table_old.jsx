@@ -7,20 +7,23 @@ import "./Table.css";
 const Table = () => {
     const [page, setPage] = useState(1);
     const recordsPerPage = 10;
-    const [sort, setSort] = useState({ keyToSort: 'Title', direction: 'asc' });
-
+    const lastIndex = page * recordsPerPage;
+    const firstIndex = lastIndex - recordsPerPage;
+    const records = data.slice(firstIndex, lastIndex);
+    const npage = Math.ceil(data.length / recordsPerPage);
     const headers = [
         'Title',
         'Artist',
         'Album',
         'Release date',
         'Duration',
-    ];
+    ]
+
+    const [sort, setSort] = useState({ keyToSort: 'header', direction: 'asc' });
 
     const handleChange = (e, value) => {
         setPage(value);
-    };
-
+    }
     function handleSortClick(header) {
         setSort({
             keyToSort: header,
@@ -29,32 +32,19 @@ const Table = () => {
                     ? sort.direction === 'asc'
                         ? 'desc'
                         : 'asc'
-                    : 'asc',
+                    : 'desc',
         });
-        setPage(1); // Rendezés után az első oldalra dob
     }
-
     function getSortedArray(arrayToSort) {
-        return arrayToSort.sort((a, b) => {
-            if (a[sort.keyToSort] < b[sort.keyToSort]) {
-                return sort.direction === 'asc' ? -1 : 1;
-            }
-            if (a[sort.keyToSort] > b[sort.keyToSort]) {
-                return sort.direction === 'asc' ? 1 : -1;
-            }
-            return 0;
-        });
+        if (sort.direction === 'asc') {
+            return arrayToSort.sort((a, b) => (a[sort.keyToSort] > b[sort.keyToSort] ? 1 : -1));
+        }
+        return arrayToSort.sort((a, b) => (a[sort.keyToSort] > b[sort.keyToSort] ? -1 : 1));
     }
-
-    const sortedData = getSortedArray([...data]); // Komplett táblázat rendezése
-    const npage = Math.ceil(sortedData.length / recordsPerPage);
-    const lastIndex = page * recordsPerPage;
-    const firstIndex = lastIndex - recordsPerPage;
-    const records = sortedData.slice(firstIndex, lastIndex);
 
     const handleSubmit = (e) => {
         e.preventDefault();
-    };
+    }
 
     const [search, setSearch] = useState('');
 
@@ -89,7 +79,6 @@ const Table = () => {
                     </button>
                 </div>
             </form>
-
             <Stack spacing={2}>
                 <Pagination
                     count={npage}
@@ -98,7 +87,7 @@ const Table = () => {
                 />
             </Stack>
 
-            <table className="text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
+            <table className=" text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
                 <thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
                     <tr>
                         {headers.map(header => (
@@ -106,23 +95,25 @@ const Table = () => {
                                 key={header}
                                 scope="col"
                                 className="px-6 py-3 text-sm font-semibold font-serif text-slate-400"
-                                onClick={() => handleSortClick(header)}
+                                onClick={() => handleSortClick(header)
+                                }
                             >
                                 {header} {sort.keyToSort === header && (sort.direction === 'asc' ? '▲' : '▼')}
                             </th>
-                        ))}
+                        ))
+                        }
                     </tr>
                 </thead>
 
                 <tbody>
-                    {records.map((row, index) => (
+                    {getSortedArray(records).map((row, index) => (
                         <tr key={index} className="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700">
                             {headers.map((header, index) => {
                                 return (
                                     <td key={index} className="px-6 py-4">
                                         {row[header]}
                                     </td>
-                                );
+                                )
                             })}
                         </tr>
                     ))}
@@ -136,8 +127,9 @@ const Table = () => {
                     onChange={handleChange}
                 />
             </Stack>
-        </div>
-    );
-};
 
-export default Table;
+        </div>
+    )
+}
+
+export default Table
