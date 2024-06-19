@@ -15,6 +15,7 @@ ___
 - npm i nodemon -D (-D to install as Dependencies)
 - npm i express (Server communication)
 - npm i axios
+- npm install -g netlify-cli (online deploy)
 
 ## Szerver / local futtatás
 package.json:
@@ -40,6 +41,7 @@ package.json:
 # Errors
 
 ### [ESLint Require/process is not defined](https://stackoverflow.com/questions/50894000/eslint-process-is-not-defined)
+### PS1 error (executionpolicy) Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
 
 # Sources:
 - [Quick start](https://react.dev/learn)
